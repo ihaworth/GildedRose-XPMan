@@ -56,6 +56,10 @@ Note that you may need to ensure that enough data is pushed through your code.  
 	
 	generate '../C/GildedRoseTextTests' C
 	verify '../C/GildedRoseTextTests' C
+	
+	C# (run beside exe)
+	.\generate.ps1 .\GildedRose.exe ..\Results
+	.\verify.ps1 .\GildedRose.exe ..\Results 
 
 
 Scripts originally based on code by Samir Talwar: https://github.com/SamirTalwar/trivia-golden-master
